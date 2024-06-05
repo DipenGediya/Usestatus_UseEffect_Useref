@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Use_status from './component/Use_status'
+import Use_ref from './component/Use_ref'
+import Use_effect from './component/Use_effect'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Use_status /> */}
+      {/* <Use_ref /> */}
+      <Use_effect/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
